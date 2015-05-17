@@ -485,7 +485,7 @@ return c;
 
 
  */
-///-------- THIS FUNCTION WORKS CORRECTLY. SOMETHING IS WRONG WITH THE TEST
+///-------- 
 function smallMultiples(n,k){
 if(Number.isNaN(k)){throw "Invalid Input";} 
 if(typeof(n)!=="number"){throw "Invalid Input";}
@@ -519,6 +519,17 @@ if(typeof(k)!=="number"){throw "Invalid Input";}
  * The input should only contain lower-case alphabetic characters. If the input
  * is invalid throw an 'Invalid Input' exception.
  */
+
+
+//var original = "abcdefghijklmnopqrstuvwxyz";
+//var rotted = "nopqrstuvwxyzabcdefghijklm";
+
+//if a[0]
+//function rot13(a) {
+  //return str.replace(/[a-zA-Z]/g, function(chr) {
+    //var start = chr <= 'Z' ? 65 : 97;
+    //return String.fromCharCode(start + (chr.charCodeAt(0) - start + 13) % 26);}
+    //rot13("have a nice day super");
 
 /*
  * PROBLEM `derot13`: (hard)
